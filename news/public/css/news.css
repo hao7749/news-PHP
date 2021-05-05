@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.continaer {
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.continaer .back a {
+    text-decoration: none;
+    font-size: 20px ;
+    color: #000;
+}
+
+.continaer article {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.continaer article h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 0 30px;
+}
+
+.continaer article p {
+    font-size: 18px;
+    text-indent: 2em;
+    line-height: 1.8;
+}
+
+.continaer article .inscribe {
+    margin-top: 30px;
+    float: right;
+    text-align: center;
+}
+
+#footer {
+    height: 80px;
+    text-align: center;
+    font-size: 16px;
+    color: #2775b6;
+    padding-top: 30px;
+    background-color: #f2f2f2;
+    padding-bottom: 20px;
+}

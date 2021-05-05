@@ -1,0 +1,25 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+body {
+	background: #fff;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	/* padding: 0 100px; */
+}
+
+#content {
+	margin: 0 auto;
+	width: 80%;
+	background: #fff;
+}
+
+

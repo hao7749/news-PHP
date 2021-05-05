@@ -1,0 +1,78 @@
+@import url("public.css");
+
+#body {
+    background-color: #cecece;
+    height: 100%;
+}
+
+#nav {
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    font-size: 20px;
+    background-color: #4e5465;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+#main #sidebar {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+#main #chief {
+    width: calc(100% - 250px);
+    background-color: #4e5465;
+    display: inline-block;
+    vertical-align: top;
+}
+#main .all-plate,
+#main .add-plate,
+#main .alter-plate,
+#main .delete-plate {
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#main .add-plate h2,
+#main .alter-plate h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#main .alter-plate,
+#main .add-plate,
+#main .delete-plate
+ {
+    display: none;
+}
+
+#main .alter-plate table,
+#main .all-plate table,
+#main .delete-plate table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #000;
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+    background-color: #fff;
+}
+
+#main .all-plate table thead,
+#main .delete-plate table thead {
+    background-color: #ccc;
+}
+
+#main .alter-plate  table td,
+#main .all-plate table td,
+#main .delete-plate table td {
+    border: 0.5px solid #666;
+    padding: 10px 20px;
+}
+
+#main .delete-plate table .dele {
+    cursor: pointer;
+}
